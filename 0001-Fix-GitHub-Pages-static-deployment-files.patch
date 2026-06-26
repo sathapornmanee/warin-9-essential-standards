@@ -1,0 +1,31 @@
+From 105cffa74f9db8fd4a58bf23e2efdb7aeca9468d Mon Sep 17 00:00:00 2001
+From: sathapornmanee <maknow25@gmail.com>
+Date: Fri, 26 Jun 2026 11:27:15 +0700
+Subject: [PATCH] Fix GitHub Pages static deployment files
+
+---
+ .nojekyll | 1 +
+ README.md | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 .nojekyll
+
+diff --git a/.nojekyll b/.nojekyll
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/.nojekyll
+@@ -0,0 +1 @@
++
+diff --git a/README.md b/README.md
+index 36f3e96..e87dc5f 100644
+--- a/README.md
++++ b/README.md
+@@ -20,4 +20,4 @@
+ - `src/App.jsx` โค้ด React ของแอป
+ - `styles.css` สไตล์เสริมเล็กน้อย
+ - `.nojekyll` ให้ GitHub Pages เสิร์ฟไฟล์ static ตามปกติ
+-- `.github/workflows/pages.yml` workflow สำหรับ deploy GitHub Pages อัตโนมัติ
++- `.github/workflows/static.yml` workflow สำหรับ deploy GitHub Pages อัตโนมัติ
+-- 
+2.54.0.windows.1
+

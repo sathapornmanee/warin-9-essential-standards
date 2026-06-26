@@ -20,4 +20,4 @@
 - `src/App.jsx` โค้ด React ของแอป
 - `styles.css` สไตล์เสริมเล็กน้อย
 - `.nojekyll` ให้ GitHub Pages เสิร์ฟไฟล์ static ตามปกติ
-- `.github/workflows/pages.yml` workflow สำหรับ deploy GitHub Pages อัตโนมัติ
+- `.github/workflows/static.yml` workflow สำหรับ deploy GitHub Pages อัตโนมัติ
